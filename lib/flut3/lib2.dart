@@ -6,6 +6,7 @@ void main(){
   ));
 }
 
+//this is a StatefulWidget
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
