@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
           children: [
             ElevatedButton(onPressed: (){
               Alert(context: context, title: "This is my Title", desc: "Flutter is awesome.").show();
-            }, child: Text("one")),
+            }, child: Text("first alert")),
             ElevatedButton(onPressed: (){
               Alert(
                 context: context,
