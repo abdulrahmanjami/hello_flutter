@@ -30,7 +30,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin{
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              AnimatedIcon(icon: AnimatedIcons.close_menu, progress: controller, size: 70, color: Colors.lightGreenAccent,),
+              AnimatedIcon(icon: AnimatedIcons.play_pause, progress: controller, size: 70, color: Colors.lightGreenAccent,),
               ElevatedButton(onPressed: (){
                 controller.forward();
               }, child: Text("Forward Animation")),
@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin{
               }, child: Text("Reverse Animation")),
               ElevatedButton(onPressed: (){
                 controller.repeat(reverse: true);
-              }, child: Text("Animation")),
+              }, child: Text("Animations")),
             ],
           ),
         ),
